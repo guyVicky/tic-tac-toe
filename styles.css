@@ -1,0 +1,35 @@
+:root {
+  --fore: rgb(81, 71, 71) solid;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0px;
+}
+
+.board {
+  padding: 0px;
+  margin: 1vh calc((100vw - 97vh) / 2);
+  height: 97vh;
+  border: 0.5vh var(--fore);
+  display: grid;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  gap: inherit;
+}
+
+.cell {
+  margin: 0px;
+  border: 0.5vh rgb(81, 71, 71) solid;
+}
+
+.clear {
+  margin: auto;
+  padding: 4px 10px;
+  font-size: larger;
+  background-color: coral;
+  color: beige;
+  border-radius: 10px;
+}
