@@ -23,6 +23,9 @@ body {
 .cell {
   margin: 0px;
   border: 0.5vh rgb(81, 71, 71) solid;
+  background-repeat: no-repeat;
+  background-size: 90% 90%;
+  background-position: 50% 50%;
 }
 
 .clear {
